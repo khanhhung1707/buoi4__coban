@@ -8,7 +8,7 @@ function handleSapXep(){
     document.getElementById("sapXep").innerHTML = `thứ tự là : ${sapXep}`;
     document.getElementById("sapXep").style.cssText = "background:gray;color:white;padding:20px;margin-top:30px";
 }
-
+//bài 2
 function handleChao(){
     var question = document.getElementById("question").value;
     var answer;
@@ -32,7 +32,7 @@ function handleChao(){
     document.getElementById("hello").innerHTML = answer ;
     document.getElementById("hello").style.cssText = "background:gray;color:white;padding:20px;margin-top:30px";
 }
-
+//bài 3
 function handleChanLe(){
     var soNguyen1 = +document.getElementById("soNguyen1").value;
     var soNguyen2 = +document.getElementById("soNguyen2").value;
@@ -57,7 +57,7 @@ function handleChanLe(){
     document.getElementById("chanLe").innerHTML =`${dapAn1} , ${dapAn2} , ${dapAn3}`;
     document.getElementById("chanLe").style.cssText = "background:gray;color:white;padding:20px;margin-top:30px";
 }
-
+//bài 4
 function handleTamGiac(){
     var canh1 = +document.getElementById("canh1").value;
     var canh2 = +document.getElementById("canh2").value;
